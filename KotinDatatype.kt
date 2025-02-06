@@ -7,14 +7,16 @@ fun main() {
 //    val flags = true
 //    println(flags)
 
-    var arr = arrayOf(1,3,4,5,7)
- var firstId = arr[0]
-//    println(firstId)
-    for (i in arr){
-       if (i == 4){
-           println("element found $i")
-       }
-    }
+//    var arr = arrayOf(1,3,4,5,7)
+// var firstId = arr[0]
+////    println(firstId)
+//    for (i in arr){
+//       if (i == 4){
+//           println("element found $i")
+//       }
+//    }
+    val txt = "Arjun love japan dishes"
+    print(txt)
 
 
 }
