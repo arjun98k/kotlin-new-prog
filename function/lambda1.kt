@@ -1,6 +1,6 @@
 package function
 
-import sum
+
 
 fun main() {
 val ak = { println("hii") }
@@ -9,6 +9,6 @@ val ak = { println("hii") }
 
 
     val summ = {a:Int, b:Int ->  a+b}
-   println( sum(11,13))
+   println( summ(11,13))
 }
 
