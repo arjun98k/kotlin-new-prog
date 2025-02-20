@@ -6,5 +6,7 @@ fun main() {
     println(haseven)
     val haseven1 = num.all{ it % 2 == 0 }
     println(haseven1)
+    val haseven2 = num.none{ it % 2 == 0 }
+    println(haseven2)
 
 }
