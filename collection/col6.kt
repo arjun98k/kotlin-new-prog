@@ -8,5 +8,6 @@ fun main() {
     println(haseven1)
     val haseven2 = num.none{ it % 2 == 0 }
     println(haseven2)
-
+    val haseven3 = num.find{ it % 2 == 0 }
+    println(haseven3)
 }
