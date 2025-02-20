@@ -10,4 +10,6 @@ fun main() {
     println(haseven2)
     val haseven3 = num.find{ it % 2 == 0 }
     println(haseven3)
+    val haseven4 = num.filter{ it % 2 == 0 }.map { it *2 }
+    println(haseven4)
 }
