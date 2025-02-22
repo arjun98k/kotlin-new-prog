@@ -11,5 +11,6 @@ fun main() {
 //    println(ans)
     val addsix = makeAdd(6)
     println(addsix(5))
+    aksdh
 
 }
