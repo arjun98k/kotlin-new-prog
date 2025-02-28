@@ -13,4 +13,8 @@ fun main() {
     println(addsix(5))
     println("arjun")
 
+    for (i in 1..10){
+        println("hello")
+    }
+
 }
