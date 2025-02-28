@@ -13,8 +13,10 @@ fun main() {
     println(addsix(5))
     println("arjun")
 
-    for (i in 1..10){
-        println("hello")
-    }
+//    for (i in 1..10){
+//        println("hello")
+//    }
+    val Add: (Int, Int) -> Int = {a,b -> a+b}
+    println(Add(90,8))
 
 }
